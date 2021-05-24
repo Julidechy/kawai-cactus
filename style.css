@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo {
+  position: relative;
+  background: #d6efc7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.fondo .circulo {
+  position: relative;
+  background: #fad586;
+  width: 80vmin;
+  height: 80vmin;
+  border-radius: 50%;
+}
+.fondo .circulo::before {
+  content: "";
+  position: absolute;
+  width: 36vmin;
+  height: 8vmin;
+  background: #000;
+  border-radius: 50%;
+  opacity: 0.2;
+  bottom: 2vmin;
+  left: 22vmin;
+}
+.fondo .circulo .cactus-title {
+  position: absolute;
+  display: block;
+  top: 9vmin;
+  left: 31.5vmin;
+  font-family: "KoHo", sans-serif;
+  font-size: 5vmin;
+  text-align: center;
+}
+.fondo .circulo .maceta {
+  border-top: 25vmin solid #ba135d;
+  border-left: 10vmin solid transparent;
+  border-right: 10vmin solid transparent;
+  height: 20vmin;
+  width: 40vmin;
+  border-radius: 2vmin;
+  position: absolute;
+  bottom: 5vmin;
+  left: 19.5vmin;
+}
+.fondo .circulo .maceta .ojos {
+  position: absolute;
+  background: #000;
+  border-radius: 50%;
+  width: 3vmin;
+  height: 3vmin;
+}
+.fondo .circulo .maceta .ojos.ojo-izq {
+  bottom: 15vmin;
+  left: 4vmin;
+}
+.fondo .circulo .maceta .ojos.ojo-izq::after {
+  content: "";
+  position: absolute;
+  left: 1.4vmin;
+  top: 0.8vmin;
+  width: 0.5vmin;
+  height: 0.5vmin;
+  border-radius: 50%;
+  background: #fff;
+}
+.fondo .circulo .maceta .ojos.ojo-der {
+  bottom: 15vmin;
+  right: 4vmin;
+}
+.fondo .circulo .maceta .ojos.ojo-der::after {
+  content: "";
+  position: absolute;
+  left: 1.4vmin;
+  top: 0.8vmin;
+  width: 0.5vmin;
+  height: 0.5vmin;
+  border-radius: 50%;
+  background: #fff;
+}
+.fondo .circulo .maceta .mejillas {
+  position: absolute;
+  height: 2vmin;
+  width: 4vmin;
+  border-radius: 50%;
+  background: #f4a9a8;
+  opacity: 0.5;
+}
+.fondo .circulo .maceta .mejillas.mejilla-izq {
+  bottom: 12vmin;
+  left: 3vmin;
+}
+.fondo .circulo .maceta .mejillas.mejilla-der {
+  bottom: 12vmin;
+  right: 3vmin;
+}
+.fondo .circulo .maceta .boca {
+  position: absolute;
+  bottom: 8vmin;
+  left: 7.5vmin;
+  background: transparent;
+  height: 6vmin;
+  width: 6vmin;
+  border-radius: 50%;
+  border-bottom: 1vmin solid #000;
+}
+.fondo .circulo .cactus-grande {
+  position: absolute;
+  width: 15vmin;
+  height: 40vmin;
+  border-radius: 45%;
+  background: #184d47;
+  top: 18vmin;
+  left: 24vmin;
+  border: 1px solid #000;
+}
+.fondo .circulo .cactus-grande::after {
+  content: "";
+  position: absolute;
+  height: 40vmin;
+  width: 5vmin;
+  background: transparent;
+  border-radius: 50%;
+  border-right: 2px solid #96bb7c;
+  right: 4vmin;
+}
+.fondo .circulo .cactus-grande::before {
+  content: "";
+  position: absolute;
+  height: 40vmin;
+  width: 5vmin;
+  background: transparent;
+  border-radius: 50%;
+  border-left: 2px solid #96bb7c;
+  left: 4vmin;
+}
+.fondo .circulo .cactus-chico {
+  position: absolute;
+  height: 25vmin;
+  width: 20vmin;
+  border-radius: 43%;
+  background: #96bb7c;
+  border: 1px solid #000;
+  top: 30vmin;
+  right: 23vmin;
+}
+.fondo .circulo .cactus-chico:after {
+  content: "";
+  position: absolute;
+  height: 25vmin;
+  width: 5vmin;
+  border-radius: 50%;
+  background: transparent;
+  border-right: 2px solid #184d47;
+  right: 5vmin;
+}
+.fondo .circulo .cactus-chico:before {
+  content: "";
+  position: absolute;
+  height: 25vmin;
+  width: 5vmin;
+  border-radius: 50%;
+  background: transparent;
+  border-left: 2px solid #184d47;
+  left: 5vmin;
+}/*# sourceMappingURL=style.css.map */
